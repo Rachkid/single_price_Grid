@@ -75,6 +75,9 @@ button{
     color: white;
     border: none;
 }
+button:hover{
+    background-color: var(179, 62%, 43%);
+}
 .why{
     padding: 40px;
     background-color: hsl(179, 62%, 43%);
