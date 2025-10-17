@@ -41,7 +41,7 @@ h2{
     opacity: 0.9;
 }
 .community p{
-    color: hsl(218, 22%, 67%);
+    color: #333;
     line-height: 30px;
     opacity: 0.7;
 }
@@ -55,11 +55,10 @@ h2{
 }
 .sub h3{
     padding-bottom: 20px;
-    opacity: 0.9;
 }
 .price{
     display: inline-flex !important;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 .price-p{
@@ -69,7 +68,7 @@ h2{
 }
 .access{
   padding: 10px 0px 20px 0px;  
-  opacity: 0.8;
+ 
 }
 button{
    margin-top: 20px;
@@ -87,17 +86,18 @@ button:hover{
 }
 .why{
     padding: 40px;
-    background-color: hsl(179, 62%, 43%);
+    background-color: #43d6c7;
     color: white;
 }
 .why h3{
     padding-bottom: 20px;
-    color :#43d6c7
+    color :white
 }
 li{
     padding-bottom: 3px;
+    line-height: 25px;
     font-size: 16px;
-    opacity: 0.6;
+    color: white;
 }
 @media (min-width: 768px){
     .why, .sub{
@@ -110,7 +110,6 @@ li{
         margin-top: 40px;
     }
     .plan{
-        display: flex;
         flex-direction: column;
     }
     .community{
