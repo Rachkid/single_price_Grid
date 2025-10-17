@@ -26,11 +26,13 @@ ul{
 }
 .community{
     padding: 40px;
+    
 }
 h2{
     color: default;
     padding-bottom: 25px;
     opacity: 0.9;
+    font-size: 2rem;
 }
 .community h3{
     font-weight: bold;
@@ -86,12 +88,10 @@ button:hover{
 .why{
     padding: 40px;
     background-color: hsl(179, 62%, 43%);
-    opacity: 0.8;
     color: white;
 }
 .why h3{
     padding-bottom: 20px;
-    opacity: 0.9 !important;
     color :#43d6c7
 }
 li{
