@@ -6,7 +6,6 @@
 }
 body{
    display: flex;
-   flex-direction: column;
    justify-content: center !important;
     align-items: center !important;
     min-height: 100vh;
@@ -34,11 +33,12 @@ h2{
     opacity: 0.9;
     font-size: 2rem;
 }
-.community h3{
+.community h2{
     font-weight: bold;
     color: hsl(71, 73%, 54%);
     padding-bottom: 16px;
     opacity: 0.9;
+    font-size: 1.3rem;
 }
 .community p{
     color: #333;
@@ -76,7 +76,7 @@ button{
     font-size: 1rem;
     font-family: Arial, sans-serif;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color:#c4f13b;
     color : black;
     border: none;
